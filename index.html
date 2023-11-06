@@ -23,27 +23,27 @@
 
   <header>
 
-      <div class="head-site">
-        <div class="contact-us">
-          <a href="#" class="btn contact-details" rel="noopener" id="callMe"><i class="fas fa-mobile-alt "
-              style="color: lightgray;"></i> Call me</a>
-          <a href=" mailto:imantadayon@gmail.com" rel="noopener" class="btn contact-details"><i class="fas fa-at"
-              style="color: lightgray;"></i> Send a mail</a>
-        </div>
-        <div class=" contact-links">
-          <a href="https://www.facebook.com/iman.tadayon" rel="noopener" target="_blank" class="btn contact-details">
-            <i class="fa-brands fa-facebook-f" style="color: lightgray;"></i></a>
-          <a id="profile-link" href="https://github.com/imantadayon" rel="noopener" target="_blank"
-            class="btn contact-details"><i class="fab fa-github" style="color: lightgray;"></i></a>
-          <a href="https://twitter.com/imantadayon" rel="noopener" target="_blank" class="btn contact-details"><i
-              class="fab fa-twitter" style="color: lightgray;"></i></a>
-          <a href="https://www.linkedin.com/in/imantadayon/" rel="noopener" target="_blank"
-            class="btn contact-details"><i class="fa-brands fa-linkedin-in" style="color: lightgray;"></i></a>
-          <a href="https://www.instagram.com/imantadayon/" class="btn contact-details" rel="noopener" target="_blank"
-            id="callMe"><i class="fa-brands fa-instagram" style="color: lightgray;"></i></a>
-        </div>
-        <hr>
+    <div class="flex-wrap flex-row justify-content-between head-site">
+      <div class="contact-us">
+        <a href="#" class="btn contact-details" rel="noopener" id="callMe"><i class="fas fa-mobile-alt "
+            style="color: lightgray;"></i> Call me</a>
+        <a href=" mailto:imantadayon@gmail.com" rel="noopener" class="btn contact-details"><i class="fas fa-at"
+            style="color: lightgray;"></i> Send a mail</a>
       </div>
+      <div class=" contact-links">
+        <a href="https://www.facebook.com/iman.tadayon" rel="noopener" target="_blank" class="btn contact-details">
+          <i class="fa-brands fa-facebook-f" style="color: lightgray;"></i></a>
+        <a id="profile-link" href="https://github.com/imantadayon" rel="noopener" target="_blank"
+          class="btn contact-details"><i class="fab fa-github" style="color: lightgray;"></i></a>
+        <a href="https://twitter.com/imantadayon" rel="noopener" target="_blank" class="btn contact-details"><i
+            class="fab fa-twitter" style="color: lightgray;"></i></a>
+        <a href="https://www.linkedin.com/in/imantadayon/" rel="noopener" target="_blank" class="btn contact-details"><i
+            class="fa-brands fa-linkedin-in" style="color: lightgray;"></i></a>
+        <a href="https://www.instagram.com/imantadayon/" class="btn contact-details" rel="noopener" target="_blank"
+          id="callMe"><i class="fa-brands fa-instagram" style="color: lightgray;"></i></a>
+      </div>
+      <hr>
+    </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark">
       <p class=" fw-bold nav-title">ROYAL CARS</p>
@@ -98,15 +98,14 @@
 
 
   <section class="section1" id="section1">
-    <div>
-      <div class="number ">
-        <p id="number">01</p>
-        <div class="number">
-          <p class="welcome">WELCOME TO <span class="royal-car">ROYAL CARS</span></p>
-          <img src="./image/frooooo-01.png" alt="">
-
-          <div id="description">
-            <p class="description">
+    <div class="number ">
+      <p id="number">01</p>
+      <p class="welcome">WELCOME TO <span class="royal-car">ROYAL CARS</span></p>
+      <img src="./image/frooooo-01.png" alt="" class="mx-auto d-block">
+      <div class="container">
+        <div class="card text-center" style="border: none; background: none;">
+          <div class="card-body">
+            <p class="card-text fs-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
               impedit libero velit. Facilis nihil voluptatibus beatae odio veritatis
               adipisci nesciunt, voluptas ipsum mollitia magnam architecto nisi,
@@ -114,50 +113,53 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
               impedit libero velit. Facilis nihil voluptatibus beatae odio veritatis
               adipisci nesciunt, voluptas ipsum mollitia magnam architecto nisi,
-              quod fugiat esse accusamus?
+              quod fugiat esse accusamus.
             </p>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
 
+  <section class="d-flex flex-row flex-wrap justify-content-center align-items-center section2">
 
-  <section class="section2">
-
-    <div class="card card-1">
+    <div
+      class="card fw-bold d-flex flex-row align-items-center col-lg-3 m-4 rounded-0 border-0 bg-secondary bg-opacity-25 ">
       <div class="font-awesome">
         <i class="fa-solid fa-headset"></i>
       </div>
       <div class="card-body">
-        <p class="card-text">24/7 CAR RENTAL SUPPORT</p>
+        <p class="card-text  fs-3 fs-6">24/7 CAR RENTAL SUPPORT</p>
       </div>
     </div>
 
 
-    <div class="card card-1 center-card">
+    <div class="card fw-bold d-flex flex-row align-items-center col-lg-3 m-4 rounded-0 border-0 " id="center-card">
       <div class="font-awesome">
         <i class="fa-solid fa-car"></i>
       </div>
       <div class="card-body">
-        <p class="card-text">CAR RESERVATION ANYTIME</p>
+        <p class="card-text  fs-3 fs-6">CAR RESERVATION ANYTIME</p>
       </div>
+
     </div>
 
 
-    <div class="card card-1">
+    <div
+      class="card fw-bold d-flex flex-row align-items-center col-lg-3 m-4 rounded-0 border-0 bg-secondary bg-opacity-25">
       <div class="font-awesome">
         <i class="fa-solid fa-location-dot"></i>
       </div>
       <div class="card-body">
-        <p class="card-text">LOST OF PICKUP LOCATION</p>
+        <p class="card-text  fs-3 fs-6">LOST OF PICKUP LOCATION</p>
       </div>
     </div>
 
   </section>
 
 
-  
+
   <section class="section3">
 
 
@@ -167,114 +169,114 @@
         <p class="welcome">OUR SERVICE</p>
       </div>
     </div>
-<div class="service-card">
+    <div class="d-flex flex-row flex-wrap justify-content-center align-items-center align-content-center service-card">
 
-  <div class="card card-2">
-    <div class="icon-p2">
-      <div class="font-awesome">
-        <i class="fa-solid fa-taxi"></i>
+      <div class="card col-10 col-lg-3 m-4 rounded-0 border-0 bg-secondary bg-opacity-25">
+        <div class="icon-p2">
+          <div class="font-awesome">
+            <i class="fa-solid fa-taxi"></i>
+          </div>
+          <div class="number-card">
+            01
+          </div>
+        </div>
+
+        <p class="card-title ms-4 fs-1 fw-bold">CAR RENTAL</p>
+        <p class="card-text m-4 mt-1 mb-5 fs-6 fs-4 fw-semibold text-secondary text-opacity-50">
+          We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
+        </p>
       </div>
-      <div class="number-card">
-        01
+
+
+      <div class="card col-10 col-lg-3 m-4 rounded-0 border-0 " id="center-card">
+        <div class="icon-p2">
+          <div class="font-awesome">
+            <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+
+          </div>
+          <div class="number-card text-body">
+            02
+          </div>
+        </div>
+
+        <p class="card-title ms-4 fs-1 fw-bold text-light">CAR FINANCING</p>
+        <p class="card-text m-4 mt-1 mb-5 fs-6 fs-4 fw-semibold text-secondary text-opacity-50">
+          We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
+        </p>
+      </div>
+
+
+      <div class="card col-10 col-lg-3 m-4 rounded-0 border-0 bg-secondary bg-opacity-25">
+        <div class="icon-p2">
+          <div class="font-awesome">
+            <i class="fa-solid fa-car"></i>
+
+          </div>
+          <div class="number-card">
+            03
+          </div>
+        </div>
+
+        <p class="card-title ms-4 fs-1 fw-bold">CAR INSPECTIO</p>
+        <p class="card-text  m-4 mt-1 mb-5 fs-6 fs-4 fw-semibold text-secondary text-opacity-50">
+          We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
+        </p>
+      </div>
+
+
+      <div class="card col-10 col-lg-3 m-4 rounded-0 border-0 bg-secondary bg-opacity-25">
+        <div class="icon-p2">
+          <div class="font-awesome">
+            <i class="fa-sharp fa-solid fa-screwdriver-wrench"></i>
+
+
+          </div>
+          <div class="number-card">
+            04
+          </div>
+        </div>
+
+        <p class="card-title ms-4 fs-1 fw-bold">AUTO REPAIRING</p>
+        <p class="card-text m-4 mt-1 mb-5 fs-6 fs-4 fw-semibold text-secondary text-opacity-50">
+          We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
+        </p>
+      </div>
+
+
+      <div class="card col-10 col-lg-3 m-4 rounded-0 border-0 bg-secondary bg-opacity-25">
+        <div class="icon-p2">
+          <div class="font-awesome">
+            <i class="fa-solid fa-spray-can-sparkles"></i>
+          </div>
+          <div class="number-card">
+            05
+          </div>
+        </div>
+
+        <p class="card-title ms-4 fs-1 fw-bold">AUTO PAINTING</p>
+        <p class="card-text m-4 mt-1 mb-5 fs-6 fs-4 fw-semibold text-secondary text-opacity-50">
+          We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
+        </p>
+      </div>
+
+
+      <div class="card col-10 col-lg-3 m-4 rounded-0 border-0 bg-secondary bg-opacity-25">
+        <div class="icon-p2">
+          <div class="font-awesome">
+            <i class="fa-solid fa-pump-soap"></i>
+
+          </div>
+          <div class="number-card">
+            06
+          </div>
+        </div>
+
+        <p class="card-title ms-4 fs-1 fw-bold">AUTO CLEANING</p>
+        <p class="card-text m-4 mt-1 mb-5 fs-6 fs-4 fw-semibold text-secondary text-opacity-50">
+          We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
+        </p>
       </div>
     </div>
-
-    <p class="card-title">CAR RENTAL</p>
-    <p class="information">
-      We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
-    </p>
-  </div>
-
-
-  <div class="card card-2 center-card2">
-    <div class="icon-p2">
-      <div class="font-awesome">
-        <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
-
-      </div>
-      <div class="number-card">
-        02
-      </div>
-    </div>
-
-    <p class="card-title">CAR FINANCING</p>
-    <p class="information">
-      We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
-    </p>
-  </div>
-
-
-  <div class="card card-2">
-    <div class="icon-p2">
-      <div class="font-awesome">
-        <i class="fa-solid fa-car"></i>
-
-      </div>
-      <div class="number-card">
-        03
-      </div>
-    </div>
-
-    <p class="card-title">CAR INSPECTIO</p>
-    <p class="information">
-      We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
-    </p>
-  </div>
-
-
-  <div class="card card-2">
-    <div class="icon-p2">
-      <div class="font-awesome">
-        <i class="fa-sharp fa-solid fa-screwdriver-wrench"></i>
-
-
-      </div>
-      <div class="number-card">
-        04
-      </div>
-    </div>
-
-    <p class="card-title">AUTO REPAIRING</p>
-    <p class="information">
-      We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
-    </p>
-  </div>
-
-
-  <div class="card card-2">
-    <div class="icon-p2">
-      <div class="font-awesome">
-        <i class="fa-solid fa-spray-can-sparkles"></i>
-      </div>
-      <div class="number-card">
-        05
-      </div>
-    </div>
-
-    <p class="card-title">AUTO PAINTING</p>
-    <p class="information">
-      We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
-    </p>
-  </div>
-
-
-  <div class="card card-2">
-    <div class="icon-p2">
-      <div class="font-awesome">
-        <i class="fa-solid fa-pump-soap"></i>
-
-      </div>
-      <div class="number-card">
-        06
-      </div>
-    </div>
-
-    <p class="card-title">AUTO CLEANING</p>
-    <p class="information">
-      We offer the service of a personal 24/7 manager to make your trips as comfortable and safe as possible.
-    </p>
-  </div>
-</div>
 
 
     <div class="div-offer">
@@ -288,24 +290,22 @@
 
 
     <div class="car-pic">
-  
-  
-      <div class="card car-1">
+      <div class="card rounded-0 border-0 d-flex flex-row align-items-center  car-1">
         <div class="car">
           <img src="./image/36573-9-mercedes-benz-file.png" alt="" class="car-image-1">
         </div>
-        <div class="card-info-1">
+        <div class="d-flex flex-column align-items-end justify-content-center card-info-1">
           <p class="title-3">WANT TO BE DRIVER?</p>
           <p class="info-car-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <button type="button">START NOW</button>
         </div>
-  
+
       </div>
-      <div class="card car-2">
+      <div class="card rounded-0 border-0 car-2">
         <div class="car2">
           <img src="./image/22597-6-bmw-x6-photos.png" alt="" class="car-image-2">
         </div>
-        <div class="card-info-2">
+        <div class="d-flex flex-column align-items-start justify-content-center card-info-2">
           <p class="title-3">LOOKING FOR A CAR</p>
           <p class="info-car-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <button type="button">START NOW</button>
@@ -317,7 +317,7 @@
 
 
 
-  <section class="section4" id="section4">
+  <section class="d-flex flex-column justify-content-center section4" id="section4">
     <div class="number number-2">
       <p id="number">03</p>
       <div class="number">
@@ -412,19 +412,14 @@
           </div>
         </div>
       </div>
-
-
-    </div>
-
-
   </section>
 
   <div class="up">
-    <a href="#"><i class="fa-solid fa-angles-up"></i></a>
-
+    <a href="#" class="d-flex align-items-center justify-content-center text-align-center"><i
+        class="fa-solid fa-angles-up"></i></a>
   </div>
 
-  <footer>
+  <footer class="d-flex align-items-center justify-content-center flex-column">
 
     <p>&copy; <span>ROYAL CARS. </span>All Rights Reserved.</p>
     <p>Designed by <span>HTML Codex</span></p>
